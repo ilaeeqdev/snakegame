@@ -1,0 +1,102 @@
+ body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #333;
+            
+        }
+        .game{
+
+            position: relative;
+        }
+        .snake{
+
+            position: absolute;
+            width: 120px;
+            top: 2px;
+            left: 200px;
+            bottom: 20px;
+            block-size: 800px;
+
+        }  
+        .sna{
+
+            position: absolute;
+            width: 120px;
+            top: 10px;
+            right: 200px;
+            block-size: 400px;
+        }
+        .ladder{
+            position: absolute;
+            width: 100px;
+            top: 10px;
+            left: 100px;
+            bottom: 10px;
+            block-size: 400px;
+
+
+        }
+    
+        .lad{
+
+            position: absolute;
+            width: 100px;
+            top: 400px;
+            
+            right:100px ;
+            bottom: 10px;
+            block-size: 200px;
+
+
+
+        }
+
+        .ludosnake{
+            width: 600px;
+            height: 600px;
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            border: 5px solid #222;
+            border-radius: 10px;
+        }
+
+        .square {
+            width: 60px;
+            height: 60px;
+            text-align: center;
+        }
+
+        .white1 {
+            background-color: red;
+            
+        }
+
+        .black2 {
+            background-color: blue;
+        }
+    .white3{
+        background-color: aqua;
+    }
+    .black4{
+        background-color: green;
+    }
+    .white5{
+        background-color: yellow;
+    }
+    .black6{
+        background-color:purple ;
+    }
+    .white7{
+        background-color: maroon;
+    }
+    .black8{
+        background-color: burlywood;
+    }
+    .white9{
+        background-color: magenta;
+    }
+    .black10{
+        background-color: chocolate;
+    }
